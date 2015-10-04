@@ -7,7 +7,7 @@ RSpec.describe StaticPagesController, type: :controller do
       get :home
       expect(response).to have_http_status(:success)
       within "title" do
-        response.should have_content("Home | Ruby on Rails Tutorial Sample App")
+        response.should have_content("Ruby on Rails Tutorial Sample App")
       end
     end
   end
