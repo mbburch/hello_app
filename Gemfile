@@ -15,7 +15,6 @@ group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
   gem 'launchy'
-  gem 'capybara'
   gem 'rspec-rails'
 end
 
