@@ -32,4 +32,14 @@ RSpec.describe StaticPagesController, type: :controller do
     end
   end
 
+  describe "GET #contact" do
+    it "returns http success" do
+      get :contact
+      expect(response).to have_http_status(:success)
+      within "title" do
+        response.should have_content("Contact | Ruby on Rails Tutorial Sample App")
+      end
+    end
+  end
+
 end
