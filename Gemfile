@@ -16,6 +16,8 @@ group :development, :test do
   gem 'launchy'
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'minitest-rails'
+  gem 'minitest-rails-capybara'
 end
 
 group :test do
