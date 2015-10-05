@@ -6,4 +6,5 @@ require 'minitest/pride'
 
 class ActiveSupport::TestCase
   fixtures :all
+  include ApplicationHelper
 end
